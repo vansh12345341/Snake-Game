@@ -27,6 +27,7 @@ export interface ICanvasBoard {
   height: number;
   width: number;
 }
+//
 const CanvasBoard = ({ height, width }: ICanvasBoard) => {
   const dispatch = useDispatch();
   const snake1 = useSelector((state: IGlobalState) => state.snake);

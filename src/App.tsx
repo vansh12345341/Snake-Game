@@ -3,7 +3,7 @@ import { Provider } from "react-redux";
 import CanvasBoard from "./components/CanvasBoard";
 import ScoreCard from "./components/ScoreCard";
 import store from "./store";
-import "./App.css"
+import "./App.css";
 
 const App = () => {
   return (

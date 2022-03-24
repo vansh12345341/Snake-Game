@@ -10,6 +10,7 @@ import {
   SET_DIS_DIRECTION,
   UP,
 } from "../actions";
+//
 
 export interface IGlobalState {
   snake: ISnakeCoord[] | [];

@@ -3,6 +3,7 @@ export const clearBoard = (context: CanvasRenderingContext2D | null) => {
     context.clearRect(0, 0, 1000, 600);
   }
 };
+//
 
 export interface IObjectBody {
   x: number;

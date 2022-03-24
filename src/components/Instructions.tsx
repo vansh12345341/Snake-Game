@@ -3,6 +3,7 @@ import { Box, Button, Flex, Heading, Kbd } from "@chakra-ui/react";
 export interface IInstructionProps {
   resetBoard: () => void;
 }
+//
 const Instruction = ({ resetBoard }: IInstructionProps) => (
   <Box mt={3}>
     <Heading as="h6" size="lg">
